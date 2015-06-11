@@ -39,7 +39,7 @@ public class Solution {
         if(flag != 0) {
             head.next = new ListNode(flag); 
         }
-
+        
         return ret.next;
         
     }
