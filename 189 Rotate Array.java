@@ -10,6 +10,7 @@ public class Solution {
         for(i=0; i<k; i++) {
            temp[i] = nums[length-k+i];
         }
+        
         for(i=length-k-1; i>=0; i--) {
             nums[i+k] = nums[i];
         }
