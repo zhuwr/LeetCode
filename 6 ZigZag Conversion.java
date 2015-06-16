@@ -3,6 +3,7 @@ public class Solution {
         if(numRows == 1 || s.length()<numRows) {
             return s;
         }
+        
         char[] Rows =new char[s.length()];
         int count = 0;
         int step = 2*(numRows-1);
